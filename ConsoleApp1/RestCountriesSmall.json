@@ -1,0 +1,4258 @@
+[
+  {
+    "name": "Afghanistan",
+    "nativeName": "افغانستان",
+    "cca2": "AF",
+    "cca3": "AFG",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+    "idd": {
+      "root": "+93",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two digits (ranging from 10–43) correspond to the province, while the last two digits correspond either to the city/delivery zone (range 01–50) or to the district/delivery zone (range 51–99)",
+      "cca2": "AF",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Åland Islands",
+    "nativeName": "Åland",
+    "cca2": "AX",
+    "cca3": "ALA",
+    "flag": "https://flagcdn.com/w320/ax.png",
+    "idd": {
+      "root": "+35818",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "With Finland, first two numbers are 22. CC prefix for abroad",
+      "cca2": "AX",
+      "format": "[CC-]NNNNN",
+      "regex": "^([Aa][Xx]-)?22\\d{3}$"
+    }
+  },
+  {
+    "name": "Albania",
+    "nativeName": "Shqipëria",
+    "cca2": "AL",
+    "cca3": "ALB",
+    "flag": "https://flagcdn.com/w320/al.png",
+    "idd": {
+      "root": "+355",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Introduced in 2006, gradually implemented throughout 2007.",
+      "cca2": "AL",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Algeria",
+    "nativeName": "الجزائر",
+    "cca2": "DZ",
+    "cca3": "DZA",
+    "flag": "https://flagcdn.com/w320/dz.png",
+    "idd": {
+      "root": "+213",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First two as in ISO 3166-2:DZ",
+      "cca2": "DZ",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "American Samoa",
+    "nativeName": "American Samoa",
+    "cca2": "AS",
+    "cca3": "ASM",
+    "flag": "https://flagcdn.com/w320/as.png",
+    "idd": {
+      "root": "+1684",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes (range 96799)",
+      "cca2": "US",
+      "format": "96799[-NNNN]",
+      "regex": "^96799(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Andorra",
+    "nativeName": "Andorra",
+    "cca2": "AD",
+    "cca3": "AND",
+    "flag": "https://flagcdn.com/w320/ad.png",
+    "idd": {
+      "root": "+376",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Each parish now has its own post code.",
+      "cca2": "AD",
+      "format": "CCNNN",
+      "regex": "^[Aa][Dd]\\d{3}$"
+    }
+  },
+  {
+    "name": "Angola",
+    "nativeName": "Angola",
+    "cca2": "AO",
+    "cca3": "AGO",
+    "flag": "https://flagcdn.com/w320/ao.png",
+    "idd": {
+      "root": "+244",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Anguilla",
+    "nativeName": "Anguilla",
+    "cca2": "AI",
+    "cca3": "AIA",
+    "flag": "https://flagcdn.com/w320/ai.png",
+    "idd": {
+      "root": "+1264",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Single code used for all addresses.",
+      "cca2": "AI",
+      "format": "AI-2640",
+      "regex": "^[Aa][Ii]-2640$"
+    }
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "nativeName": "Antigua and Barbuda",
+    "cca2": "AG",
+    "cca3": "ATG",
+    "flag": "https://flagcdn.com/w320/ag.png",
+    "idd": {
+      "root": "+1268",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Argentina",
+    "nativeName": "Argentina",
+    "cca2": "AR",
+    "cca3": "ARG",
+    "flag": "https://flagcdn.com/w320/ar.png",
+    "idd": {
+      "root": "+54",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Codigo Postal Argentino (CPA), where the first A is the province code as in ISO 3166-2:AR, the four numbers are the old postal codes, the three last letters indicate a side of the block. Previously NNNN which &#10;o the minimum requirement as of 2006.",
+      "cca2": "AR",
+      "format": "NNNN, ANNNNAAA",
+      "regex": "^(([a-zA-Z]\\d{4}([a-zA-Z]{3}))|\\d{4})?$"
+    }
+  },
+  {
+    "name": "Armenia",
+    "nativeName": "Հայաստան",
+    "cca2": "AM",
+    "cca3": "ARM",
+    "flag": "https://flagcdn.com/w320/am.png",
+    "idd": {
+      "root": "+374",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Previously used NNNNNN system inherited from former Soviet Union. Now NNNN",
+      "cca2": "AM",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Aruba",
+    "nativeName": "Aruba",
+    "cca2": "AW",
+    "cca3": "ABW",
+    "flag": "https://flagcdn.com/w320/aw.png",
+    "idd": {
+      "root": "+297",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Australia",
+    "nativeName": "Australia",
+    "cca2": "AU",
+    "cca3": "AUS",
+    "flag": "https://flagcdn.com/w320/au.png",
+    "idd": {
+      "root": "+61",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "In general, the first digit identifies the state or territory.",
+      "cca2": "AU",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Austria",
+    "nativeName": "Österreich",
+    "cca2": "AT",
+    "cca3": "AUT",
+    "flag": "https://flagcdn.com/w320/at.png",
+    "idd": {
+      "root": "+43",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first digit denotes regions, which are partly identical to one of the nine provinces—called Bundesländer; the last the nearest post office in the area.",
+      "cca2": "AT",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Azerbaijan",
+    "nativeName": "Azərbaycan",
+    "cca2": "AZ",
+    "cca3": "AZE",
+    "flag": "https://flagcdn.com/w320/az.png",
+    "idd": {
+      "root": "+994",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Previously used NNNNNN system inherited from former Soviet Union. now CC NNNN",
+      "cca2": "AZ",
+      "format": "CC NNNN",
+      "regex": "^[Aa][Zz] \\d{4}$"
+    }
+  },
+  {
+    "name": "Bahamas",
+    "nativeName": "Bahamas",
+    "cca2": "BS",
+    "cca3": "BHS",
+    "flag": "https://flagcdn.com/w320/bs.png",
+    "idd": {
+      "root": "+1242",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Bahrain",
+    "nativeName": "‏البحرين",
+    "cca2": "BH",
+    "cca3": "BHR",
+    "flag": "https://flagcdn.com/w320/bh.png",
+    "idd": {
+      "root": "+973",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Valid post code numbers are 101 to 1216 with gaps in the range. Known as block number (Arabic: رقم المجمع‎) formally. The first digit in NNN format and the first two digits in NNNN format refer to one of the 12 municipalities of the country. PO Box address doesn't need a block number or city name, just the PO Box number followed by the name of the country, Bahrain.",
+      "cca2": "BH",
+      "format": "NNN[N]",
+      "regex": "^\\d{3,4}$"
+    }
+  },
+  {
+    "name": "Bangladesh",
+    "nativeName": "Bangladesh",
+    "cca2": "BD",
+    "cca3": "BGD",
+    "flag": "https://flagcdn.com/w320/bd.png",
+    "idd": {
+      "root": "+880",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "BD",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Barbados",
+    "nativeName": "Barbados",
+    "cca2": "BB",
+    "cca3": "BRB",
+    "flag": "https://flagcdn.com/w320/bb.png",
+    "idd": {
+      "root": "+1246",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Only one postal code currently assigned. 11000 applies to the General Post Office building in Cheapside, Bridgetown, to enable delivery to Barbados by global package delivery companies whose software requires a postal code.",
+      "cca2": "BB",
+      "format": "CCNNNNN",
+      "regex": "^[Aa][Zz]\\d{5}$"
+    }
+  },
+  {
+    "name": "Belarus",
+    "nativeName": "Белару́сь",
+    "cca2": "BY",
+    "cca3": "BLR",
+    "flag": "https://flagcdn.com/w320/by.png",
+    "idd": {
+      "root": "+375",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Retained system inherited from former Soviet Union.",
+      "cca2": "BY",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Belgium",
+    "nativeName": "België",
+    "cca2": "BE",
+    "cca3": "BEL",
+    "flag": "https://flagcdn.com/w320/be.png",
+    "idd": {
+      "root": "+32",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "In general, the first digit gives the province.",
+      "cca2": "BE",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Belize",
+    "nativeName": "Belize",
+    "cca2": "BZ",
+    "cca3": "BLZ",
+    "flag": "https://flagcdn.com/w320/bz.png",
+    "idd": {
+      "root": "+501",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Benin",
+    "nativeName": "Bénin",
+    "cca2": "BJ",
+    "cca3": "BEN",
+    "flag": "https://flagcdn.com/w320/bj.png",
+    "idd": {
+      "root": "+229",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Bermuda",
+    "nativeName": "Bermuda",
+    "cca2": "BM",
+    "cca3": "BMU",
+    "flag": "https://flagcdn.com/w320/bm.png",
+    "idd": {
+      "root": "+1441",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "AA NN for street addresses, AA AA for P.O. Box addresses. The second half of the postcode identifies the street delivery walk (e.g.: Hamilton HM 12) or the PO Box number range (e.g.: Hamilton HM BX). See Postal codes in Bermuda.",
+      "cca2": "BM",
+      "format": "AA NN or AA AA",
+      "regex": "^[A-Za-z]{2} ([A-Za-z]{2}|\\d{2})$"
+    }
+  },
+  {
+    "name": "Bhutan",
+    "nativeName": "ʼbrug-yul",
+    "cca2": "BT",
+    "cca3": "BTN",
+    "flag": "https://flagcdn.com/w320/bt.png",
+    "idd": {
+      "root": "+975",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "BT",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Bolivia",
+    "nativeName": "Bolivia",
+    "cca2": "BO",
+    "cca3": "BOL",
+    "flag": "https://flagcdn.com/w320/bo.png",
+    "idd": {
+      "root": "+591",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "nativeName": "Bosna i Hercegovina",
+    "cca2": "BA",
+    "cca3": "BIH",
+    "flag": "https://flagcdn.com/w320/ba.png",
+    "idd": {
+      "root": "+387",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "BA",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Botswana",
+    "nativeName": "Botswana",
+    "cca2": "BW",
+    "cca3": "BWA",
+    "flag": "https://flagcdn.com/w320/bw.png",
+    "idd": {
+      "root": "+267",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Bouvet Island",
+    "nativeName": "Bouvetøya",
+    "cca2": "BV",
+    "cca3": "BVT",
+    "flag": "https://flagcdn.com/w320/bv.png",
+    "idd": {
+      "root": "+47",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Brazil",
+    "nativeName": "Brasil",
+    "cca2": "BR",
+    "cca3": "BRA",
+    "flag": "https://flagcdn.com/w320/br.png",
+    "idd": {
+      "root": "+55",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Código de Endereçamento Postal (CEP): -000 to -899 are used for streets, roads, avenues, boulevards; -900 to -959 are used for buildings with a high postal use; -960 to -969 are for promotional use; -970 to -989 are post offices and regular P.O. boxes; and -990 to -998 are used for community P.O. boxes. -999 is used for special services.",
+      "cca2": "BR",
+      "format": "NNNNN-NNN",
+      "regex": "^\\d{5}-\\d{3}$"
+    }
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "nativeName": "British Indian Ocean Territory",
+    "cca2": "IO",
+    "cca3": "IOT",
+    "flag": "https://flagcdn.com/w320/io.png",
+    "idd": {
+      "root": "+246",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "UK territory, but not UK postcode.",
+      "cca2": "IO",
+      "format": "BBND 1ZZ",
+      "regex": "^[Bb]{2}[Nn][Dd] 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "British Virgin Islands",
+    "nativeName": "British Virgin Islands",
+    "cca2": "VG",
+    "cca3": "VGB",
+    "flag": "https://flagcdn.com/w320/vg.png",
+    "idd": {
+      "root": "+1284",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Specifically, VG1110 through VG1160",
+      "cca2": "VG",
+      "format": "CC11N0",
+      "regex": "^[Vv][Gg]11[1-6]0$"
+    }
+  },
+  {
+    "name": "Brunei",
+    "nativeName": "Negara Brunei Darussalam",
+    "cca2": "BN",
+    "cca3": "BRN",
+    "flag": "https://flagcdn.com/w320/bn.png",
+    "idd": {
+      "root": "+673",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "BN",
+      "format": "AANNNN",
+      "regex": "^[A-Za-z]{2}\\d{4}$"
+    }
+  },
+  {
+    "name": "Bulgaria",
+    "nativeName": "България",
+    "cca2": "BG",
+    "cca3": "BGR",
+    "flag": "https://flagcdn.com/w320/bg.png",
+    "idd": {
+      "root": "+359",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "BG",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Burkina Faso",
+    "nativeName": "Burkina Faso",
+    "cca2": "BF",
+    "cca3": "BFA",
+    "flag": "https://flagcdn.com/w320/bf.png",
+    "idd": {
+      "root": "+226",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Burundi",
+    "nativeName": "Burundi",
+    "cca2": "BI",
+    "cca3": "BDI",
+    "flag": "https://flagcdn.com/w320/bi.png",
+    "idd": {
+      "root": "+257",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Cambodia",
+    "nativeName": "Kâmpŭchéa",
+    "cca2": "KH",
+    "cca3": "KHM",
+    "flag": "https://flagcdn.com/w320/kh.png",
+    "idd": {
+      "root": "+855",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "KH",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Cameroon",
+    "nativeName": "Cameroon",
+    "cca2": "CM",
+    "cca3": "CMR",
+    "flag": "https://flagcdn.com/w320/cm.png",
+    "idd": {
+      "root": "+237",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Canada",
+    "nativeName": "Canada",
+    "cca2": "CA",
+    "cca3": "CAN",
+    "flag": "https://flagcdn.com/w320/ca.png",
+    "idd": {
+      "root": "+1",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The system was gradually introduced starting in April 1971 in Ottawa. The letters D, F, I, O, Q, and U are not used to avoid confusion with other letters or numbers.",
+      "cca2": "CA",
+      "format": "ANA NAN",
+      "regex": "^[ABCEGHJ-NPRSTVXYabceghj-nprstvxy]\\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z] \\d[ABCEGHJ-NPRSTV-Zabceghj-nprstv-z]\\d$"
+    }
+  },
+  {
+    "name": "Cape Verde",
+    "nativeName": "Cabo Verde",
+    "cca2": "CV",
+    "cca3": "CPV",
+    "flag": "https://flagcdn.com/w320/cv.png",
+    "idd": {
+      "root": "+238",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first digit indicates the island.",
+      "cca2": "CV",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "nativeName": "Bonaire",
+    "cca2": "BQ",
+    "cca3": "BES",
+    "flag": "https://flagcdn.com/w320/bq.png",
+    "idd": {
+      "root": "+599",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Cayman Islands",
+    "nativeName": "Cayman Islands",
+    "cca2": "KY",
+    "cca3": "CYM",
+    "flag": "https://flagcdn.com/w320/ky.png",
+    "idd": {
+      "root": "+1345",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "KY",
+      "format": "CCN-NNNN",
+      "regex": "^[Kk][Yy]\\d-\\d{4}$"
+    }
+  },
+  {
+    "name": "Central African Republic",
+    "nativeName": "Ködörösêse tî Bêafrîka",
+    "cca2": "CF",
+    "cca3": "CAF",
+    "flag": "https://flagcdn.com/w320/cf.png",
+    "idd": {
+      "root": "+236",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Chad",
+    "nativeName": "Tchad",
+    "cca2": "TD",
+    "cca3": "TCD",
+    "flag": "https://flagcdn.com/w320/td.png",
+    "idd": {
+      "root": "+235",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Chile",
+    "nativeName": "Chile",
+    "cca2": "CL",
+    "cca3": "CHL",
+    "flag": "https://flagcdn.com/w320/cl.png",
+    "idd": {
+      "root": "+56",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "May only be required for bulk mail.",
+      "cca2": "CL",
+      "format": "NNN[-]NNNN",
+      "regex": "^\\d{3}-{0,1}\\d{4}$"
+    }
+  },
+  {
+    "name": "China",
+    "nativeName": "中国",
+    "cca2": "CN",
+    "cca3": "CHN",
+    "flag": "https://flagcdn.com/w320/cn.png",
+    "idd": {
+      "root": "+86",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "A postal code or youbian (邮编) in a subordinate division will have the same first two digits as its governing one (see Political divisions of China. The postal services in Macau or Hong Kong Special Administrative Regions remain separate from Mainland China, with no post code system currently used.",
+      "cca2": "CN",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Christmas Island",
+    "nativeName": "Christmas Island",
+    "cca2": "CX",
+    "cca3": "CXR",
+    "flag": "https://flagcdn.com/w320/cx.png",
+    "idd": {
+      "root": "+61",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Part of the Australian postal code system.",
+      "cca2": "CX",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "nativeName": "Cocos (Keeling) Islands",
+    "cca2": "CC",
+    "cca3": "CCK",
+    "flag": "https://flagcdn.com/w320/cc.png",
+    "idd": {
+      "root": "+61",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Part of the Australian postal code system.",
+      "cca2": "CC",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Colombia",
+    "nativeName": "Colombia",
+    "cca2": "CO",
+    "cca3": "COL",
+    "flag": "https://flagcdn.com/w320/co.png",
+    "idd": {
+      "root": "+57",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First NN = 32 departments Códigos Postales | 4-72",
+      "cca2": "CO",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Comoros",
+    "nativeName": "Komori",
+    "cca2": "KM",
+    "cca3": "COM",
+    "flag": "https://flagcdn.com/w320/km.png",
+    "idd": {
+      "root": "+269",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Cook Islands",
+    "nativeName": "Cook Islands",
+    "cca2": "CK",
+    "cca3": "COK",
+    "flag": "https://flagcdn.com/w320/ck.png",
+    "idd": {
+      "root": "+682",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Costa Rica",
+    "nativeName": "Costa Rica",
+    "cca2": "CR",
+    "cca3": "CRI",
+    "flag": "https://flagcdn.com/w320/cr.png",
+    "idd": {
+      "root": "+506",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First codes the provinces, next two the canton, last two the district.",
+      "cca2": "CR",
+      "format": "NNNNN[-NNNN]",
+      "regex": "^\\d{5}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Croatia",
+    "nativeName": "Hrvatska",
+    "cca2": "HR",
+    "cca3": "HRV",
+    "flag": "https://flagcdn.com/w320/hr.png",
+    "idd": {
+      "root": "+385",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "HR",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Cuba",
+    "nativeName": "Cuba",
+    "cca2": "CU",
+    "cca3": "CUB",
+    "flag": "https://flagcdn.com/w320/cu.png",
+    "idd": {
+      "root": "+53",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "May only be required for bulk mail. The letters CP are frequently used before the postal code. This is not a country code, but an abbreviation for \"codigo postal\" or postal code.",
+      "cca2": "CU",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Curaçao",
+    "nativeName": "Curaçao",
+    "cca2": "CW",
+    "cca3": "CUW",
+    "flag": "https://flagcdn.com/w320/cw.png",
+    "idd": {
+      "root": "+599",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Cyprus",
+    "nativeName": "Κύπρος",
+    "cca2": "CY",
+    "cca3": "CYP",
+    "flag": "https://flagcdn.com/w320/cy.png",
+    "idd": {
+      "root": "+357",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Post code system covers whole island, but not used in Northern Cyprus where 'Mersin 10, Turkey' is used instead.",
+      "cca2": "CY",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Czechia",
+    "nativeName": "Česká republika",
+    "cca2": "CZ",
+    "cca3": "CZE",
+    "flag": "https://flagcdn.com/w320/cz.png",
+    "idd": {
+      "root": "+420",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "With Slovak Republic, Poštovní směrovací číslo (PSČ) - postal routing number.",
+      "cca2": "CZ",
+      "format": "NNN NN",
+      "regex": "^\\d{3} \\d{2}$"
+    }
+  },
+  {
+    "name": "Denmark",
+    "nativeName": "Danmark",
+    "cca2": "DK",
+    "cca3": "DNK",
+    "flag": "https://flagcdn.com/w320/dk.png",
+    "idd": {
+      "root": "+45",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Numbering follows the dispatch of postal trains from Copenhagen.[3] Also used by Greenland, e.g.: DK-3900 Nuuk.",
+      "cca2": "DK",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Djibouti",
+    "nativeName": "Djibouti",
+    "cca2": "DJ",
+    "cca3": "DJI",
+    "flag": "https://flagcdn.com/w320/dj.png",
+    "idd": {
+      "root": "+253",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Dominica",
+    "nativeName": "Dominica",
+    "cca2": "DM",
+    "cca3": "DMA",
+    "flag": "https://flagcdn.com/w320/dm.png",
+    "idd": {
+      "root": "+1767",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Dominican Republic",
+    "nativeName": "República Dominicana",
+    "cca2": "DO",
+    "cca3": "DOM",
+    "flag": "https://flagcdn.com/w320/do.png",
+    "idd": {
+      "root": "+1",
+      "suffixes": [
+        "809",
+        "829",
+        "849"
+      ]
+    },
+    "zip": {
+      "note": "",
+      "cca2": "DO",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "DR Congo",
+    "nativeName": "République démocratique du Congo",
+    "cca2": "CD",
+    "cca3": "COD",
+    "flag": "https://flagcdn.com/w320/cd.png",
+    "idd": {
+      "root": "+243",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Ecuador",
+    "nativeName": "Ecuador",
+    "cca2": "EC",
+    "cca3": "ECU",
+    "flag": "https://flagcdn.com/w320/ec.png",
+    "idd": {
+      "root": "+593",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "EC",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Egypt",
+    "nativeName": "مصر‎",
+    "cca2": "EG",
+    "cca3": "EGY",
+    "flag": "https://flagcdn.com/w320/eg.png",
+    "idd": {
+      "root": "+20",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "EG",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "El Salvador",
+    "nativeName": "El Salvador",
+    "cca2": "SV",
+    "cca3": "SLV",
+    "flag": "https://flagcdn.com/w320/sv.png",
+    "idd": {
+      "root": "+503",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Used for all inbound mail to El Salvador. The postal office then distributes the mail internally depending on their destination.",
+      "cca2": "SV",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Equatorial Guinea",
+    "nativeName": "Guinea Ecuatorial",
+    "cca2": "GQ",
+    "cca3": "GNQ",
+    "flag": "https://flagcdn.com/w320/gq.png",
+    "idd": {
+      "root": "+240",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Eritrea",
+    "nativeName": "ኤርትራ",
+    "cca2": "ER",
+    "cca3": "ERI",
+    "flag": "https://flagcdn.com/w320/er.png",
+    "idd": {
+      "root": "+291",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Estonia",
+    "nativeName": "Eesti",
+    "cca2": "EE",
+    "cca3": "EST",
+    "flag": "https://flagcdn.com/w320/ee.png",
+    "idd": {
+      "root": "+372",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "EE",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Eswatini",
+    "nativeName": "Swaziland",
+    "cca2": "SZ",
+    "cca3": "SWZ",
+    "flag": "https://flagcdn.com/w320/sz.png",
+    "idd": {
+      "root": "+268",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The letter identifies one of the country's four districts.",
+      "cca2": "SZ",
+      "format": "ANNN",
+      "regex": "^[A-Za-z]\\d{3}$"
+    }
+  },
+  {
+    "name": "Ethiopia",
+    "nativeName": "ኢትዮጵያ",
+    "cca2": "ET",
+    "cca3": "ETH",
+    "flag": "https://flagcdn.com/w320/et.png",
+    "idd": {
+      "root": "+251",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The code is only used on a trial basis for Addis Ababa addresses.",
+      "cca2": "ET",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Falkland Islands",
+    "nativeName": "Falkland Islands",
+    "cca2": "FK",
+    "cca3": "FLK",
+    "flag": "https://flagcdn.com/w320/fk.png",
+    "idd": {
+      "root": "+500",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "UK territory, but not UK postcode",
+      "cca2": "FK",
+      "format": "FIQQ 1ZZ",
+      "regex": "^[Ff][Ii][Qq]{2} 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "Faroe Islands",
+    "nativeName": "Føroyar",
+    "cca2": "FO",
+    "cca3": "FRO",
+    "flag": "https://flagcdn.com/w320/fo.png",
+    "idd": {
+      "root": "+298",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Self-governing territory within the Kingdom of Denmark, but not Danish postcode.",
+      "cca2": "FO",
+      "format": "FO-NNN, FR-NNN[N] or DK-NNNN",
+      "regex": "^([Ff][Oo]|[Ff][Rr]|[Dd][Kk])-\\d{3,4}$"
+    }
+  },
+  {
+    "name": "Fiji",
+    "nativeName": "Fiji",
+    "cca2": "FJ",
+    "cca3": "FJI",
+    "flag": "https://flagcdn.com/w320/fj.png",
+    "idd": {
+      "root": "+679",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Finland",
+    "nativeName": "Suomi",
+    "cca2": "FI",
+    "cca3": "FIN",
+    "flag": "https://flagcdn.com/w320/fi.png",
+    "idd": {
+      "root": "+358",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "A lower first digit indicates a place in south (for example 00100 Helsinki), a higher indicates a place further to north (99800 in Ivalo). The last digit is usually 0, except for postal codes for PO Box number ranges, in which case it is 1. Country code for Finland: \"FI\". In the Åland Islands, the postal code is prefixed with \"AX\", not \"FI\". Some postal codes for rural settlements may end with 5, and there are some unique postal codes for large companies and institutions, e.g. 00014 HELSINGIN YLIOPISTO (university), 00102 EDUSKUNTA (parliament), 00020 NORDEA (a major Scandinavian bank).",
+      "cca2": "FI",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "France",
+    "nativeName": "France",
+    "cca2": "FR",
+    "cca3": "FRA",
+    "flag": "https://flagcdn.com/w320/fr.png",
+    "idd": {
+      "root": "+33",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two digits give the département number, while in Paris, Lyon and Marseille, the last two digits of the postal code indicates the arrondissement. Both of the 2 corsican départements use \"20\" as the first two digits. Also used by French overseas departments and territories. Monaco is also part of the French postal code system, but the country code MC- is used for Monegasque addresses.",
+      "cca2": "FR",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "French Guiana",
+    "nativeName": "Guyane française",
+    "cca2": "GF",
+    "cca3": "GUF",
+    "flag": "https://flagcdn.com/w320/gf.png",
+    "idd": {
+      "root": "+594",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 97300 - 97390.",
+      "cca2": "GF",
+      "format": "973NN",
+      "regex": "^973\\d{2}$"
+    }
+  },
+  {
+    "name": "French Polynesia",
+    "nativeName": "Polynésie française",
+    "cca2": "PF",
+    "cca3": "PYF",
+    "flag": "https://flagcdn.com/w320/pf.png",
+    "idd": {
+      "root": "+689",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 98700 - 98790.",
+      "cca2": "PF",
+      "format": "987NN",
+      "regex": "^987\\d{2}$"
+    }
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "nativeName": "Terres australes et antarctiques françaises",
+    "cca2": "TF",
+    "cca3": "ATF",
+    "flag": "https://flagcdn.com/w320/tf.png",
+    "idd": {
+      "root": "+262",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Gabon",
+    "nativeName": "Gabon",
+    "cca2": "GA",
+    "cca3": "GAB",
+    "flag": "https://flagcdn.com/w320/ga.png",
+    "idd": {
+      "root": "+241",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Gambia",
+    "nativeName": "Gambia",
+    "cca2": "GM",
+    "cca3": "GMB",
+    "flag": "https://flagcdn.com/w320/gm.png",
+    "idd": {
+      "root": "+220",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Georgia",
+    "nativeName": "საქართველო",
+    "cca2": "GE",
+    "cca3": "GEO",
+    "flag": "https://flagcdn.com/w320/ge.png",
+    "idd": {
+      "root": "+995",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "GE",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Germany",
+    "nativeName": "Deutschland",
+    "cca2": "DE",
+    "cca3": "DEU",
+    "flag": "https://flagcdn.com/w320/de.png",
+    "idd": {
+      "root": "+49",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Postleitzahl (PLZ) – Totally new system introduced about 4 years after the German reunification.",
+      "cca2": "DE",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Ghana",
+    "nativeName": "Ghana",
+    "cca2": "GH",
+    "cca3": "GHA",
+    "flag": "https://flagcdn.com/w320/gh.png",
+    "idd": {
+      "root": "+233",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Ghana uses a digital address system. A digital address is made up of two main components: a postcode (e.g. EN-200) and a unique address (e.g. 1987). The first letter in the postcode represents a region (E for Eastern Region in this case), the second letter/digit (N) represents the district (N for New Juaben). The next batch of numbers (200) represent the area code. The regional, district and area codes come together to form the postcode. The last batch of numbers (1987) represent the unique address of the location. A combination of the postcode and the unique address make up the digital address.",
+      "cca2": "GH",
+      "format": "A?-NNN-NNNN",
+      "regex": "^[A-Za-z][A-Za-z0-9]-\\d{3}-\\d{4}$"
+    }
+  },
+  {
+    "name": "Gibraltar",
+    "nativeName": "Gibraltar",
+    "cca2": "GI",
+    "cca3": "GIB",
+    "flag": "https://flagcdn.com/w320/gi.png",
+    "idd": {
+      "root": "+350",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Single code used for all addresses.",
+      "cca2": "GI",
+      "format": "GX11 1AA",
+      "regex": "^[Gg][Xx][1]{2} 1[Aa]{2}$"
+    }
+  },
+  {
+    "name": "Greece",
+    "nativeName": "Ελλάδα",
+    "cca2": "GR",
+    "cca3": "GRC",
+    "flag": "https://flagcdn.com/w320/gr.png",
+    "idd": {
+      "root": "+30",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "GR",
+      "format": "NNN NN",
+      "regex": "^\\d{3} \\d{2}$"
+    }
+  },
+  {
+    "name": "Greenland",
+    "nativeName": "Kalaallit Nunaat",
+    "cca2": "GL",
+    "cca3": "GRL",
+    "flag": "https://flagcdn.com/w320/gl.png",
+    "idd": {
+      "root": "+299",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Part of the Danish postal code system.",
+      "cca2": "GL",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Grenada",
+    "nativeName": "Grenada",
+    "cca2": "GD",
+    "cca3": "GRD",
+    "flag": "https://flagcdn.com/w320/gd.png",
+    "idd": {
+      "root": "+1473",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Guadeloupe",
+    "nativeName": "Guadeloupe",
+    "cca2": "GP",
+    "cca3": "GLP",
+    "flag": "https://flagcdn.com/w320/gp.png",
+    "idd": {
+      "root": "+590",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 97100 - 97190.",
+      "cca2": "GP",
+      "format": "971NN",
+      "regex": "^971\\d{2}$"
+    }
+  },
+  {
+    "name": "Guam",
+    "nativeName": "Guam",
+    "cca2": "GU",
+    "cca3": "GUM",
+    "flag": "https://flagcdn.com/w320/gu.png",
+    "idd": {
+      "root": "+1671",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. Range 96910 - 96932.",
+      "cca2": "US",
+      "format": "969NN[-NNNN]",
+      "regex": "^969[1-3]\\d(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Guatemala",
+    "nativeName": "Guatemala",
+    "cca2": "GT",
+    "cca3": "GTM",
+    "flag": "https://flagcdn.com/w320/gt.png",
+    "idd": {
+      "root": "+502",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two numbers identify the department, the third number the route and the last two the office.",
+      "cca2": "GT",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Guernsey",
+    "nativeName": "Guernsey",
+    "cca2": "GG",
+    "cca3": "GGY",
+    "flag": "https://flagcdn.com/w320/gg.png",
+    "idd": {
+      "root": "+44",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "UK-format postcode (first two letters are always GY not GG)",
+      "cca2": "GG",
+      "format": "GYN[N] NAA",
+      "regex": "^[Gg][Yy]\\d{1,2} \\d[A-Za-z]{2}$"
+    }
+  },
+  {
+    "name": "Guinea",
+    "nativeName": "Guinée",
+    "cca2": "GN",
+    "cca3": "GIN",
+    "flag": "https://flagcdn.com/w320/gn.png",
+    "idd": {
+      "root": "+224",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "GN",
+      "format": "NNN, NNN AA NN, NNN AA NNN or NNN AA NNNN",
+      "regex": "^\\d{3}( [A-Za-z]{2} \\d{2,4})?$"
+    }
+  },
+  {
+    "name": "Guinea-Bissau",
+    "nativeName": "Guiné-Bissau",
+    "cca2": "GW",
+    "cca3": "GNB",
+    "flag": "https://flagcdn.com/w320/gw.png",
+    "idd": {
+      "root": "+245",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "GW",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Guyana",
+    "nativeName": "Guyana",
+    "cca2": "GY",
+    "cca3": "GUY",
+    "flag": "https://flagcdn.com/w320/gy.png",
+    "idd": {
+      "root": "+592",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Haiti",
+    "nativeName": "Haïti",
+    "cca2": "HT",
+    "cca3": "HTI",
+    "flag": "https://flagcdn.com/w320/ht.png",
+    "idd": {
+      "root": "+509",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "HT",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Honduras",
+    "nativeName": "Honduras",
+    "cca2": "HN",
+    "cca3": "HND",
+    "flag": "https://flagcdn.com/w320/hn.png",
+    "idd": {
+      "root": "+504",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "HN",
+      "format": "AANNNN, NNNNN",
+      "regex": "^(([a-zA-Z]{2}\\d{4})?|\\d{5})$"
+    }
+  },
+  {
+    "name": "Hong Kong",
+    "nativeName": "香港",
+    "cca2": "HK",
+    "cca3": "HKG",
+    "flag": "https://flagcdn.com/w320/hk.png",
+    "idd": {
+      "root": "+852",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Hungary",
+    "nativeName": "Magyarország",
+    "cca2": "HU",
+    "cca3": "HUN",
+    "flag": "https://flagcdn.com/w320/hu.png",
+    "idd": {
+      "root": "+36",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The code defines an area, usually one code per settlement except the six largest towns. One code can identify more (usually) small settlements as well.",
+      "cca2": "HU",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Iceland",
+    "nativeName": "Ísland",
+    "cca2": "IS",
+    "cca3": "ISL",
+    "flag": "https://flagcdn.com/w320/is.png",
+    "idd": {
+      "root": "+354",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "IS",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "India",
+    "nativeName": "भारत",
+    "cca2": "IN",
+    "cca3": "IND",
+    "flag": "https://flagcdn.com/w320/in.png",
+    "idd": {
+      "root": "+91",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Postal Index Number (PIN)",
+      "cca2": "IN",
+      "format": "NNNNNN",
+      "regex": "^[1-9]\\d{5}$"
+    }
+  },
+  {
+    "name": "Indonesia",
+    "nativeName": "Indonesia",
+    "cca2": "ID",
+    "cca3": "IDN",
+    "flag": "https://flagcdn.com/w320/id.png",
+    "idd": {
+      "root": "+62",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Kode Pos. Included East Timor (ranges 88xxx and 89xxx) until 1999, no longer used. For Indonesia postal code information visit [2]",
+      "cca2": "ID",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Iran",
+    "nativeName": "ایران",
+    "cca2": "IR",
+    "cca3": "IRN",
+    "flag": "https://flagcdn.com/w320/ir.png",
+    "idd": {
+      "root": "+98",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "(Persian: کد پستی)",
+      "cca2": "IR",
+      "format": "NNNNN-NNNNN",
+      "regex": "^\\d{5}-\\d{5}$"
+    }
+  },
+  {
+    "name": "Iraq",
+    "nativeName": "العراق",
+    "cca2": "IQ",
+    "cca3": "IRQ",
+    "flag": "https://flagcdn.com/w320/iq.png",
+    "idd": {
+      "root": "+964",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "IQ",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Ireland",
+    "nativeName": "Éire",
+    "cca2": "IE",
+    "cca3": "IRL",
+    "flag": "https://flagcdn.com/w320/ie.png",
+    "idd": {
+      "root": "+353",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Ireland's postcode system (called Eircode) refers to individual properties - not to streets/areas. The first 3 characters are a routing key referring to an area's postal district, and the second 4 characters are a unique identifier for individual properties. See www.eircode.ie for more information. See also Republic of Ireland postal addresses.",
+      "cca2": "IE",
+      "format": "ANN ???? or D6W ????",
+      "regex": "^([AC-FHKNPRTV-Yac-fhknprtv-y][0-9]{2}|[Dd]6[Ww]) [0-9AC-FHKNPRTV-Yac-fhknprtv-y]{4}$"
+    }
+  },
+  {
+    "name": "Isle of Man",
+    "nativeName": "Isle of Man",
+    "cca2": "IM",
+    "cca3": "IMN",
+    "flag": "https://flagcdn.com/w320/im.png",
+    "idd": {
+      "root": "+44",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "UK-format postcode. The first two letters are always IM.",
+      "cca2": "IM",
+      "format": "CCN[N] NAA",
+      "regex": "^[Ii][Mm]\\d{1,2} \\d[A-Z]{2}$"
+    }
+  },
+  {
+    "name": "Israel",
+    "nativeName": "יִשְׂרָאֵל",
+    "cca2": "IL",
+    "cca3": "ISR",
+    "flag": "https://flagcdn.com/w320/il.png",
+    "idd": {
+      "root": "+972",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "In 2013, after the introduction of the 7 digit codes, 5 digit codes were still being used widely.",
+      "cca2": "IL",
+      "format": "NNNNNNN",
+      "regex": "^\\d{7}$"
+    }
+  },
+  {
+    "name": "Italy",
+    "nativeName": "Italia",
+    "cca2": "IT",
+    "cca3": "ITA",
+    "flag": "https://flagcdn.com/w320/it.png",
+    "idd": {
+      "root": "+39",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Codice di Avviamento Postale (CAP). Also used by San Marino and Vatican City. First two digits identify province with some exceptions, because there are more than 100 provinces.",
+      "cca2": "IT",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Ivory Coast",
+    "nativeName": "Côte d'Ivoire",
+    "cca2": "CI",
+    "cca3": "CIV",
+    "flag": "https://flagcdn.com/w320/ci.png",
+    "idd": {
+      "root": "+225",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Jamaica",
+    "nativeName": "Jamaica",
+    "cca2": "JM",
+    "cca3": "JAM",
+    "flag": "https://flagcdn.com/w320/jm.png",
+    "idd": {
+      "root": "+1876",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Before suspension: CCAAANN. Jamaica currently has no national postal code system, except for Kingston and Lower St. Andrew, which are divided into postal districts numbered 1-20. Before the 2007 suspension, the first two letters of a national post code were always 'JM' (for Jamaica) while the third was for one of the four zones (A-D) into which the island was divided. The last two letters were for the parish, while the two digits were for the local post office.",
+      "cca2": "JM",
+      "format": "NN",
+      "regex": "^\\d{2}$"
+    }
+  },
+  {
+    "name": "Japan",
+    "nativeName": "日本",
+    "cca2": "JP",
+    "cca3": "JPN",
+    "flag": "https://flagcdn.com/w320/jp.png",
+    "idd": {
+      "root": "+81",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "See also Japanese addressing system.",
+      "cca2": "JP",
+      "format": "NNN-NNNN",
+      "regex": "^\\d{3}-\\d{4}$"
+    }
+  },
+  {
+    "name": "Jersey",
+    "nativeName": "Jersey",
+    "cca2": "JE",
+    "cca3": "JEY",
+    "flag": "https://flagcdn.com/w320/je.png",
+    "idd": {
+      "root": "+44",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "UK-format postcode.",
+      "cca2": "JE",
+      "format": "CCN[N] NAA",
+      "regex": "^[Jj][Ee]\\d{1,2} \\d[A-Za-z]{2}$"
+    }
+  },
+  {
+    "name": "Jordan",
+    "nativeName": "الأردن",
+    "cca2": "JO",
+    "cca3": "JOR",
+    "flag": "https://flagcdn.com/w320/jo.png",
+    "idd": {
+      "root": "+962",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Deliveries to PO Boxes only.",
+      "cca2": "JO",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Kazakhstan",
+    "nativeName": "Қазақстан",
+    "cca2": "KZ",
+    "cca3": "KAZ",
+    "flag": "https://flagcdn.com/w320/kz.png",
+    "idd": {
+      "root": "+7",
+      "suffixes": [
+        "6",
+        "7"
+      ]
+    },
+    "zip": {
+      "note": "[6]",
+      "cca2": "KZ",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Kenya",
+    "nativeName": "Kenya",
+    "cca2": "KE",
+    "cca3": "KEN",
+    "flag": "https://flagcdn.com/w320/ke.png",
+    "idd": {
+      "root": "+254",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Deliveries to PO Boxes only. The postal code refers to the post office at which the receiver's P. O. Box is located.",
+      "cca2": "KE",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Kiribati",
+    "nativeName": "Kiribati",
+    "cca2": "KI",
+    "cca3": "KIR",
+    "flag": "https://flagcdn.com/w320/ki.png",
+    "idd": {
+      "root": "+686",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Kosovo",
+    "nativeName": "Republika e Kosovës",
+    "cca2": "XK",
+    "cca3": "UNK",
+    "flag": "https://flagcdn.com/w320/xk.png",
+    "idd": {
+      "root": "+383",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "A separate postal code for Kosovo was introduced by the UNMIK postal administration in 2004. Serbian postcodes are still widely used in the Serbian enclaves. No country code has been assigned.",
+      "cca2": "XK",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Kuwait",
+    "nativeName": "الكويت",
+    "cca2": "KW",
+    "cca3": "KWT",
+    "flag": "https://flagcdn.com/w320/kw.png",
+    "idd": {
+      "root": "+965",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two digits represent the sector and the last three digits represents the post office.",
+      "cca2": "KW",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Kyrgyzstan",
+    "nativeName": "Кыргызстан",
+    "cca2": "KG",
+    "cca3": "KGZ",
+    "flag": "https://flagcdn.com/w320/kg.png",
+    "idd": {
+      "root": "+996",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "KG",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Laos",
+    "nativeName": "ສປປລາວ",
+    "cca2": "LA",
+    "cca3": "LAO",
+    "flag": "https://flagcdn.com/w320/la.png",
+    "idd": {
+      "root": "+856",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "LA",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Latvia",
+    "nativeName": "Latvija",
+    "cca2": "LV",
+    "cca3": "LVA",
+    "flag": "https://flagcdn.com/w320/lv.png",
+    "idd": {
+      "root": "+371",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "LV",
+      "format": "CC-NNNN",
+      "regex": "^[Ll][Vv]-\\d{4}$"
+    }
+  },
+  {
+    "name": "Lebanon",
+    "nativeName": "لبنان",
+    "cca2": "LB",
+    "cca3": "LBN",
+    "flag": "https://flagcdn.com/w320/lb.png",
+    "idd": {
+      "root": "+961",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first four digits represent the region or postal zone, the last four digits represent the building, see also Lebanon Postal code website.",
+      "cca2": "LB",
+      "format": "NNNN NNNN",
+      "regex": "^\\d{4} \\d{4}$"
+    }
+  },
+  {
+    "name": "Lesotho",
+    "nativeName": "Lesotho",
+    "cca2": "LS",
+    "cca3": "LSO",
+    "flag": "https://flagcdn.com/w320/ls.png",
+    "idd": {
+      "root": "+266",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "LS",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "Liberia",
+    "nativeName": "Liberia",
+    "cca2": "LR",
+    "cca3": "LBR",
+    "flag": "https://flagcdn.com/w320/lr.png",
+    "idd": {
+      "root": "+231",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Two digit postal zone after city name.",
+      "cca2": "LR",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Libya",
+    "nativeName": "‏ليبيا",
+    "cca2": "LY",
+    "cca3": "LBY",
+    "flag": "https://flagcdn.com/w320/ly.png",
+    "idd": {
+      "root": "+218",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Liechtenstein",
+    "nativeName": "Liechtenstein",
+    "cca2": "LI",
+    "cca3": "LIE",
+    "flag": "https://flagcdn.com/w320/li.png",
+    "idd": {
+      "root": "+423",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "With Switzerland, ordered from west to east. Range 9485 - 9498.",
+      "cca2": "LI",
+      "format": "948N or 949N",
+      "regex": "^949[0-8]$|^948[5-9]$"
+    }
+  },
+  {
+    "name": "Lithuania",
+    "nativeName": "Lietuva",
+    "cca2": "LT",
+    "cca3": "LTU",
+    "flag": "https://flagcdn.com/w320/lt.png",
+    "idd": {
+      "root": "+370",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "References: http://www.post.lt/en/help/postal-code-search. Previously 9999 which was actually the old Soviet 999999 format code with the first 2 digits dropped.",
+      "cca2": "LT",
+      "format": "CC-NNNNN",
+      "regex": "^[Ll][Tt]-\\d{5}$"
+    }
+  },
+  {
+    "name": "Luxembourg",
+    "nativeName": "Luxembourg",
+    "cca2": "LU",
+    "cca3": "LUX",
+    "flag": "https://flagcdn.com/w320/lu.png",
+    "idd": {
+      "root": "+352",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "References: http://www.upu.int/post_code/en/countries/LUX.pdf",
+      "cca2": "LU",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Macau",
+    "nativeName": "澳門",
+    "cca2": "MO",
+    "cca3": "MAC",
+    "flag": "https://flagcdn.com/w320/mo.png",
+    "idd": {
+      "root": "+853",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Madagascar",
+    "nativeName": "Madagasikara",
+    "cca2": "MG",
+    "cca3": "MDG",
+    "flag": "https://flagcdn.com/w320/mg.png",
+    "idd": {
+      "root": "+261",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MG",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "Malawi",
+    "nativeName": "Malawi",
+    "cca2": "MW",
+    "cca3": "MWI",
+    "flag": "https://flagcdn.com/w320/mw.png",
+    "idd": {
+      "root": "+265",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Malaysia",
+    "nativeName": "Malaysia",
+    "cca2": "MY",
+    "cca3": "MYS",
+    "flag": "https://flagcdn.com/w320/my.png",
+    "idd": {
+      "root": "+60",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MY",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Maldives",
+    "nativeName": "Maldives",
+    "cca2": "MV",
+    "cca3": "MDV",
+    "flag": "https://flagcdn.com/w320/mv.png",
+    "idd": {
+      "root": "+960",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MV",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Mali",
+    "nativeName": "Mali",
+    "cca2": "ML",
+    "cca3": "MLI",
+    "flag": "https://flagcdn.com/w320/ml.png",
+    "idd": {
+      "root": "+223",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Malta",
+    "nativeName": "Malta",
+    "cca2": "MT",
+    "cca3": "MLT",
+    "flag": "https://flagcdn.com/w320/mt.png",
+    "idd": {
+      "root": "+356",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Kodiċi Postali",
+      "cca2": "MT",
+      "format": "AAA NNNN",
+      "regex": "^[A-Za-z]{3} \\d{4}$"
+    }
+  },
+  {
+    "name": "Marshall Islands",
+    "nativeName": "M̧ajeļ",
+    "cca2": "MH",
+    "cca3": "MHL",
+    "flag": "https://flagcdn.com/w320/mh.png",
+    "idd": {
+      "root": "+692",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. Range 96960 - 96970.",
+      "cca2": "US",
+      "format": "969NN[-NNNN]",
+      "regex": "^969[67]\\d(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Martinique",
+    "nativeName": "Martinique",
+    "cca2": "MQ",
+    "cca3": "MTQ",
+    "flag": "https://flagcdn.com/w320/mq.png",
+    "idd": {
+      "root": "+596",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 97200 - 97290.",
+      "cca2": "MQ",
+      "format": "972NN",
+      "regex": "^972\\d{2}$"
+    }
+  },
+  {
+    "name": "Mauritania",
+    "nativeName": "موريتانيا",
+    "cca2": "MR",
+    "cca3": "MRT",
+    "flag": "https://flagcdn.com/w320/mr.png",
+    "idd": {
+      "root": "+222",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Mauritius",
+    "nativeName": "Maurice",
+    "cca2": "MU",
+    "cca3": "MUS",
+    "flag": "https://flagcdn.com/w320/mu.png",
+    "idd": {
+      "root": "+230",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MU",
+      "format": "NNNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Mayotte",
+    "nativeName": "Mayotte",
+    "cca2": "YT",
+    "cca3": "MYT",
+    "flag": "https://flagcdn.com/w320/yt.png",
+    "idd": {
+      "root": "+262",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 97600 - 97690.",
+      "cca2": "YT",
+      "format": "976NN",
+      "regex": "^976\\d{2}$"
+    }
+  },
+  {
+    "name": "Mexico",
+    "nativeName": "México",
+    "cca2": "MX",
+    "cca3": "MEX",
+    "flag": "https://flagcdn.com/w320/mx.png",
+    "idd": {
+      "root": "+52",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two digits identify the state (or a part thereof), except for Nos. 00 to 16, which indicate delegaciones (boroughs) of the Federal District (Mexico City).",
+      "cca2": "MX",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Micronesia",
+    "nativeName": "Micronesia",
+    "cca2": "FM",
+    "cca3": "FSM",
+    "flag": "https://flagcdn.com/w320/fm.png",
+    "idd": {
+      "root": "+691",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP Codes. Range 96941 - 96944.",
+      "cca2": "US",
+      "format": "9694N[-NNNN]",
+      "regex": "^9694[1-4](-\\d{4})$"
+    }
+  },
+  {
+    "name": "Moldova",
+    "nativeName": "Moldova",
+    "cca2": "MD",
+    "cca3": "MDA",
+    "flag": "https://flagcdn.com/w320/md.png",
+    "idd": {
+      "root": "+373",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MD",
+      "format": "CC[-]NNNN",
+      "regex": "^[Mm][Dd]-{0,1}\\d{4}$"
+    }
+  },
+  {
+    "name": "Monaco",
+    "nativeName": "Monaco",
+    "cca2": "MC",
+    "cca3": "MCO",
+    "flag": "https://flagcdn.com/w320/mc.png",
+    "idd": {
+      "root": "+377",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Uses the French Postal System, but with an 'MC' Prefix for Monaco.",
+      "cca2": "MC",
+      "format": "980NN",
+      "regex": "^980\\d{2}$"
+    }
+  },
+  {
+    "name": "Mongolia",
+    "nativeName": "Монгол улс",
+    "cca2": "MN",
+    "cca3": "MNG",
+    "flag": "https://flagcdn.com/w320/mn.png",
+    "idd": {
+      "root": "+976",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First digit: region / zone, Second digit: province / district, Last three digits: locality / delivery block",
+      "cca2": "MN",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Montenegro",
+    "nativeName": "Црна Гора",
+    "cca2": "ME",
+    "cca3": "MNE",
+    "flag": "https://flagcdn.com/w320/me.png",
+    "idd": {
+      "root": "+382",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "ME",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Montserrat",
+    "nativeName": "Montserrat",
+    "cca2": "MS",
+    "cca3": "MSR",
+    "flag": "https://flagcdn.com/w320/ms.png",
+    "idd": {
+      "root": "+1664",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Range 1110–1350",
+      "cca2": "MS",
+      "format": "MSR 1NNN",
+      "regex": "^[Mm][Ss][Rr] (111[0-9]|11[2-9][0-9]|12[0-9]{2}|13[0-4][0-9]|1350)$"
+    }
+  },
+  {
+    "name": "Morocco",
+    "nativeName": "المغرب",
+    "cca2": "MA",
+    "cca3": "MAR",
+    "flag": "https://flagcdn.com/w320/ma.png",
+    "idd": {
+      "root": "+212",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MA",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Mozambique",
+    "nativeName": "Moçambique",
+    "cca2": "MZ",
+    "cca3": "MOZ",
+    "flag": "https://flagcdn.com/w320/mz.png",
+    "idd": {
+      "root": "+258",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MZ",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Myanmar",
+    "nativeName": "Myanma",
+    "cca2": "MM",
+    "cca3": "MMR",
+    "flag": "https://flagcdn.com/w320/mm.png",
+    "idd": {
+      "root": "+95",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MM",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Namibia",
+    "nativeName": "Namibia",
+    "cca2": "NA",
+    "cca3": "NAM",
+    "flag": "https://flagcdn.com/w320/na.png",
+    "idd": {
+      "root": "+264",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "NA",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Nauru",
+    "nativeName": "Nauru",
+    "cca2": "NR",
+    "cca3": "NRU",
+    "flag": "https://flagcdn.com/w320/nr.png",
+    "idd": {
+      "root": "+674",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Nepal",
+    "nativeName": "नेपाल",
+    "cca2": "NP",
+    "cca3": "NPL",
+    "flag": "https://flagcdn.com/w320/np.png",
+    "idd": {
+      "root": "+977",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "NP",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Netherlands",
+    "nativeName": "Nederland",
+    "cca2": "NL",
+    "cca3": "NLD",
+    "flag": "https://flagcdn.com/w320/nl.png",
+    "idd": {
+      "root": "+31",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The combination of the postal code and the house number gives a unique identifier of the address. The four numbers indicate an area, the two letters indicate a group of some 25 habitations, offices, factories, or post office boxes.",
+      "cca2": "NL",
+      "format": "NNNN AA",
+      "regex": "^[1-9][0-9]{3} (?![Ss][Aa]|[Ss][Dd]|[SS]{2})[A-Za-z]{2}$"
+    }
+  },
+  {
+    "name": "New Caledonia",
+    "nativeName": "Nouvelle-Calédonie",
+    "cca2": "NC",
+    "cca3": "NCL",
+    "flag": "https://flagcdn.com/w320/nc.png",
+    "idd": {
+      "root": "+687",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 98800 - 98890.",
+      "cca2": "NC",
+      "format": "988NN",
+      "regex": "^988\\d{2}$"
+    }
+  },
+  {
+    "name": "New Zealand",
+    "nativeName": "New Zealand",
+    "cca2": "NZ",
+    "cca3": "NZL",
+    "flag": "https://flagcdn.com/w320/nz.png",
+    "idd": {
+      "root": "+64",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Postcodes were originally intended for bulk mailing and were not needed for addressing individual items. However, new post codes for general use were phased in from June 2006 and came into force by July 2008.",
+      "cca2": "NZ",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Nicaragua",
+    "nativeName": "Nicaragua",
+    "cca2": "NI",
+    "cca3": "NIC",
+    "flag": "https://flagcdn.com/w320/ni.png",
+    "idd": {
+      "root": "+505",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "NI",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Niger",
+    "nativeName": "Niger",
+    "cca2": "NE",
+    "cca3": "NER",
+    "flag": "https://flagcdn.com/w320/ne.png",
+    "idd": {
+      "root": "+227",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "NE",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Nigeria",
+    "nativeName": "Nigeria",
+    "cca2": "NG",
+    "cca3": "NGA",
+    "flag": "https://flagcdn.com/w320/ng.png",
+    "idd": {
+      "root": "+234",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "NG",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Niue",
+    "nativeName": "Niuē",
+    "cca2": "NU",
+    "cca3": "NIU",
+    "flag": "https://flagcdn.com/w320/nu.png",
+    "idd": {
+      "root": "+683",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Norfolk Island",
+    "nativeName": "Norfolk Island",
+    "cca2": "NF",
+    "cca3": "NFK",
+    "flag": "https://flagcdn.com/w320/nf.png",
+    "idd": {
+      "root": "+672",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Part of the Australian postal code system.",
+      "cca2": "NF",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "North Korea",
+    "nativeName": "북한",
+    "cca2": "KP",
+    "cca3": "PRK",
+    "flag": "https://flagcdn.com/w320/kp.png",
+    "idd": {
+      "root": "+850",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "North Macedonia",
+    "nativeName": "Македонија",
+    "cca2": "MK",
+    "cca3": "MKD",
+    "flag": "https://flagcdn.com/w320/mk.png",
+    "idd": {
+      "root": "+389",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "MK",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "nativeName": "Northern Mariana Islands",
+    "cca2": "MP",
+    "cca3": "MNP",
+    "flag": "https://flagcdn.com/w320/mp.png",
+    "idd": {
+      "root": "+1670",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. Range 96950 - 96952.",
+      "cca2": "US",
+      "format": "9695N[-NNNN]",
+      "regex": "^9695[0-2](-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Norway",
+    "nativeName": "Norge",
+    "cca2": "NO",
+    "cca3": "NOR",
+    "flag": "https://flagcdn.com/w320/no.png",
+    "idd": {
+      "root": "+47",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "From south to north",
+      "cca2": "NO",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Oman",
+    "nativeName": "عمان",
+    "cca2": "OM",
+    "cca3": "OMN",
+    "flag": "https://flagcdn.com/w320/om.png",
+    "idd": {
+      "root": "+968",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Deliveries to P.O. Boxes only.",
+      "cca2": "OM",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "Pakistan",
+    "nativeName": "Pakistan",
+    "cca2": "PK",
+    "cca3": "PAK",
+    "flag": "https://flagcdn.com/w320/pk.png",
+    "idd": {
+      "root": "+92",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Pakistan postal codes list",
+      "cca2": "PK",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Palau",
+    "nativeName": "Palau",
+    "cca2": "PW",
+    "cca3": "PLW",
+    "flag": "https://flagcdn.com/w320/pw.png",
+    "idd": {
+      "root": "+680",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. All locations 96940.",
+      "cca2": "US",
+      "format": "96940[-NNNN]",
+      "regex": "^96940(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Palestine",
+    "nativeName": "فلسطين",
+    "cca2": "PS",
+    "cca3": "PSE",
+    "flag": "https://flagcdn.com/w320/ps.png",
+    "idd": {
+      "root": "+970",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "not yet implemented in practice. Codes 100-899 are in the Westbank, 900-999 in the Gaza Strip",
+      "cca2": "PS",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "Panama",
+    "nativeName": "Panamá",
+    "cca2": "PA",
+    "cca3": "PAN",
+    "flag": "https://flagcdn.com/w320/pa.png",
+    "idd": {
+      "root": "+507",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "PA",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Papua New Guinea",
+    "nativeName": "Papua Niugini",
+    "cca2": "PG",
+    "cca3": "PNG",
+    "flag": "https://flagcdn.com/w320/pg.png",
+    "idd": {
+      "root": "+675",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "PG",
+      "format": "NNN",
+      "regex": "^\\d{3}$"
+    }
+  },
+  {
+    "name": "Paraguay",
+    "nativeName": "Paraguay",
+    "cca2": "PY",
+    "cca3": "PRY",
+    "flag": "https://flagcdn.com/w320/py.png",
+    "idd": {
+      "root": "+595",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "PY",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Peru",
+    "nativeName": "Perú",
+    "cca2": "PE",
+    "cca3": "PER",
+    "flag": "https://flagcdn.com/w320/pe.png",
+    "idd": {
+      "root": "+51",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The postal code format in Peru was updated in February 2011 to be of the format NNNNN (five digits).",
+      "cca2": "PE",
+      "format": "NNNNN",
+      "regex": "^\\d{45}$"
+    }
+  },
+  {
+    "name": "Philippines",
+    "nativeName": "Pilipinas",
+    "cca2": "PH",
+    "cca3": "PHL",
+    "flag": "https://flagcdn.com/w320/ph.png",
+    "idd": {
+      "root": "+63",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "PH",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Pitcairn Islands",
+    "nativeName": "Pitcairn Islands",
+    "cca2": "PN",
+    "cca3": "PCN",
+    "flag": "https://flagcdn.com/w320/pn.png",
+    "idd": {
+      "root": "+64",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Single code used PCRN 1ZZ. UK territory, but not UK postcode",
+      "cca2": "PN",
+      "format": "PCRN 1ZZ",
+      "regex": "^[Pp][Cc][Rr][Nn] 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "Poland",
+    "nativeName": "Polska",
+    "cca2": "PL",
+    "cca3": "POL",
+    "flag": "https://flagcdn.com/w320/pl.png",
+    "idd": {
+      "root": "+48",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "(PNA) Pocztowy Numer Adresowy",
+      "cca2": "PL",
+      "format": "NN-NNN",
+      "regex": "^\\d{2}-\\d{3}$"
+    }
+  },
+  {
+    "name": "Portugal",
+    "nativeName": "Portugal",
+    "cca2": "PT",
+    "cca3": "PRT",
+    "flag": "https://flagcdn.com/w320/pt.png",
+    "idd": {
+      "root": "+351",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "PT",
+      "format": "NNNN[-NNN]",
+      "regex": "^\\d{4}(-\\d{3})?$"
+    }
+  },
+  {
+    "name": "Puerto Rico",
+    "nativeName": "Puerto Rico",
+    "cca2": "PR",
+    "cca3": "PRI",
+    "flag": "https://flagcdn.com/w320/pr.png",
+    "idd": {
+      "root": "+1",
+      "suffixes": [
+        "787",
+        "939"
+      ]
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. ZIP codes 006XX for NW PR, 007XX for SE PR, in which XX designates the town or post office and 009XX for the San Juan Metropolitan Area, in which XX designates the area or borough of San Juan. The last four digits identify an area within the post office. For example 00716-2604: 00716-for the east section of the city of Ponce and 2604 for Aceitillo St. in the neighborhood of Los Caobos. US Post office is changing the PR address format to the American one: 1234 No Name Avenue, San Juan, PR 00901.",
+      "cca2": "US",
+      "format": "00NNN[-NNNN]",
+      "regex": "^00\\d{3}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Qatar",
+    "nativeName": "قطر",
+    "cca2": "QA",
+    "cca3": "QAT",
+    "flag": "https://flagcdn.com/w320/qa.png",
+    "idd": {
+      "root": "+974",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Republic of the Congo",
+    "nativeName": "République du Congo",
+    "cca2": "CG",
+    "cca3": "COG",
+    "flag": "https://flagcdn.com/w320/cg.png",
+    "idd": {
+      "root": "+242",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Réunion",
+    "nativeName": "La Réunion",
+    "cca2": "RE",
+    "cca3": "REU",
+    "flag": "https://flagcdn.com/w320/re.png",
+    "idd": {
+      "root": "+262",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 97400 - 97490.",
+      "cca2": "RE",
+      "format": "974NN",
+      "regex": "^974\\d{2}$"
+    }
+  },
+  {
+    "name": "Romania",
+    "nativeName": "România",
+    "cca2": "RO",
+    "cca3": "ROU",
+    "flag": "https://flagcdn.com/w320/ro.png",
+    "idd": {
+      "root": "+40",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "RO",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Russia",
+    "nativeName": "Россия",
+    "cca2": "RU",
+    "cca3": "RUS",
+    "flag": "https://flagcdn.com/w320/ru.png",
+    "idd": {
+      "root": "+7",
+      "suffixes": [
+        "3",
+        "4",
+        "5",
+        "8",
+        "9"
+      ]
+    },
+    "zip": {
+      "note": "Placed on a line of its own.",
+      "cca2": "RU",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Rwanda",
+    "nativeName": "Rwanda",
+    "cca2": "RW",
+    "cca3": "RWA",
+    "flag": "https://flagcdn.com/w320/rw.png",
+    "idd": {
+      "root": "+250",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Saint Barthélemy",
+    "nativeName": "Saint-Barthélemy",
+    "cca2": "BL",
+    "cca3": "BLM",
+    "flag": "https://flagcdn.com/w320/bl.png",
+    "idd": {
+      "root": "+590",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Collectivity of France. French codes used.",
+      "cca2": "BL",
+      "format": "97133",
+      "regex": "^97133$"
+    }
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "nativeName": "Saint Helena",
+    "cca2": "SH",
+    "cca3": "SHN",
+    "flag": "https://flagcdn.com/w320/sh.png",
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "90",
+        "47"
+      ]
+    },
+    "zip": {
+      "note": "Part of UK system (AAAA NAA). Saint Helena uses one code STHL 1ZZ, Ascension uses one code ASCN 1ZZ, Tristan da Cunha uses one code TDCU 1ZZ.",
+      "cca2": "SH",
+      "format": "STHL 1ZZ, ASCN 1ZZ or TDCU 1ZZ",
+      "regex": "^([Ss][Tt][Hh][Ll]|[Aa][Ss][Cc][Nn]|[Tt][Dd][Cc][Uu]) 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "nativeName": "Saint Kitts and Nevis",
+    "cca2": "KN",
+    "cca3": "KNA",
+    "flag": "https://flagcdn.com/w320/kn.png",
+    "idd": {
+      "root": "+1869",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "KN",
+      "format": "CCNNNN",
+      "regex": "^[Kk][Nn]\\d{4}?$"
+    }
+  },
+  {
+    "name": "Saint Lucia",
+    "nativeName": "Saint Lucia",
+    "cca2": "LC",
+    "cca3": "LCA",
+    "flag": "https://flagcdn.com/w320/lc.png",
+    "idd": {
+      "root": "+1758",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two letters are always LC. There are two spaces between the second and third digits.",
+      "cca2": "LC",
+      "format": "CCNN  NNN",
+      "regex": "^[Ll][Cc]\\d{2}  \\d{3}?$"
+    }
+  },
+  {
+    "name": "Saint Martin",
+    "nativeName": "Saint-Martin",
+    "cca2": "MF",
+    "cca3": "MAF",
+    "flag": "https://flagcdn.com/w320/mf.png",
+    "idd": {
+      "root": "+590",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Collectivity of France. French codes used.",
+      "cca2": "MF",
+      "format": "97150",
+      "regex": "^97150$"
+    }
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "nativeName": "Saint-Pierre-et-Miquelon",
+    "cca2": "PM",
+    "cca3": "SPM",
+    "flag": "https://flagcdn.com/w320/pm.png",
+    "idd": {
+      "root": "+508",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Collectivity of France. French codes used.",
+      "cca2": "PM",
+      "format": "97500",
+      "regex": "^97500$"
+    }
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "nativeName": "Saint Vincent and the Grenadines",
+    "cca2": "VC",
+    "cca3": "VCT",
+    "flag": "https://flagcdn.com/w320/vc.png",
+    "idd": {
+      "root": "+1784",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "VC",
+      "format": "CCNNNN",
+      "regex": "^[Vv][Cc]\\d{4}$"
+    }
+  },
+  {
+    "name": "Samoa",
+    "nativeName": "Samoa",
+    "cca2": "WS",
+    "cca3": "WSM",
+    "flag": "https://flagcdn.com/w320/ws.png",
+    "idd": {
+      "root": "+685",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "WS",
+      "format": "CCNNNN",
+      "regex": "^[Ww][Ss]\\d{4}$"
+    }
+  },
+  {
+    "name": "San Marino",
+    "nativeName": "San Marino",
+    "cca2": "SM",
+    "cca3": "SMR",
+    "flag": "https://flagcdn.com/w320/sm.png",
+    "idd": {
+      "root": "+378",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "With Italy, uses a five-digit numeric CAP of Emilia Romagna. Range 47890 and 47899",
+      "cca2": "SM",
+      "format": "4789N",
+      "regex": "^4789\\d$"
+    }
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "nativeName": "São Tomé e Príncipe",
+    "cca2": "ST",
+    "cca3": "STP",
+    "flag": "https://flagcdn.com/w320/st.png",
+    "idd": {
+      "root": "+239",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Saudi Arabia",
+    "nativeName": "العربية السعودية",
+    "cca2": "SA",
+    "cca3": "SAU",
+    "flag": "https://flagcdn.com/w320/sa.png",
+    "idd": {
+      "root": "+966",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "NNNNN for PO Boxes. NNNNN-NNNN for home delivery. A complete 13-digit code has 5-digit number representing region, sector, city, and zone; 4-digit X between 2000 and 5999; 4-digit Y between 6000 and 9999.[19] Digits of 5-digit code may represent postal region, sector, branch, section, and block respectively.",
+      "cca2": "SA",
+      "format": "NNNNN[-NNNN]",
+      "regex": "^\\d{5}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Senegal",
+    "nativeName": "Sénégal",
+    "cca2": "SN",
+    "cca3": "SEN",
+    "flag": "https://flagcdn.com/w320/sn.png",
+    "idd": {
+      "root": "+221",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The letters CP or C.P. are often written in front of the postcode. This is not a country code, but simply an abbreviation for \"code postal\".",
+      "cca2": "SN",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Serbia",
+    "nativeName": "Србија",
+    "cca2": "RS",
+    "cca3": "SRB",
+    "flag": "https://flagcdn.com/w320/rs.png",
+    "idd": {
+      "root": "+381",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Poštanski adresni kod (PAK)",
+      "cca2": "RS",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Seychelles",
+    "nativeName": "Seychelles",
+    "cca2": "SC",
+    "cca3": "SYC",
+    "flag": "https://flagcdn.com/w320/sc.png",
+    "idd": {
+      "root": "+248",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Sierra Leone",
+    "nativeName": "Sierra Leone",
+    "cca2": "SL",
+    "cca3": "SLE",
+    "flag": "https://flagcdn.com/w320/sl.png",
+    "idd": {
+      "root": "+232",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Singapore",
+    "nativeName": "Singapore",
+    "cca2": "SG",
+    "cca3": "SGP",
+    "flag": "https://flagcdn.com/w320/sg.png",
+    "idd": {
+      "root": "+65",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Each building has its own unique postcode.",
+      "cca2": "SG",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Sint Maarten",
+    "nativeName": "Sint Maarten",
+    "cca2": "SX",
+    "cca3": "SXM",
+    "flag": "https://flagcdn.com/w320/sx.png",
+    "idd": {
+      "root": "+1721",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Slovakia",
+    "nativeName": "Slovensko",
+    "cca2": "SK",
+    "cca3": "SVK",
+    "flag": "https://flagcdn.com/w320/sk.png",
+    "idd": {
+      "root": "+421",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "with Czech Republic from west to east, Poštové smerovacie číslo (PSČ) - postal routing number.",
+      "cca2": "SK",
+      "format": "NNN NN",
+      "regex": "^\\d{3} \\d{2}$"
+    }
+  },
+  {
+    "name": "Slovenia",
+    "nativeName": "Slovenija",
+    "cca2": "SI",
+    "cca3": "SVN",
+    "flag": "https://flagcdn.com/w320/si.png",
+    "idd": {
+      "root": "+386",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "SI",
+      "format": "NNNN",
+      "regex": "^\\d{4}"
+    }
+  },
+  {
+    "name": "Solomon Islands",
+    "nativeName": "Solomon Islands",
+    "cca2": "SB",
+    "cca3": "SLB",
+    "flag": "https://flagcdn.com/w320/sb.png",
+    "idd": {
+      "root": "+677",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Somalia",
+    "nativeName": "Soomaaliya",
+    "cca2": "SO",
+    "cca3": "SOM",
+    "flag": "https://flagcdn.com/w320/so.png",
+    "idd": {
+      "root": "+252",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Two letter postal codes for each of the nation's 18 administrative regions (e.g. AW for Awdal, BN for Banaadir, BR for Bari and SL for Sool).",
+      "cca2": "SO",
+      "format": "AA NNNNN",
+      "regex": "^[a-zA-Z]{2} \\d{5}$"
+    }
+  },
+  {
+    "name": "South Africa",
+    "nativeName": "South Africa",
+    "cca2": "ZA",
+    "cca3": "ZAF",
+    "flag": "https://flagcdn.com/w320/za.png",
+    "idd": {
+      "root": "+27",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Postal codes are allocated to individual Post Office branches, some have two codes to differentiate between P.O. Boxes and street delivery addresses. Included Namibia (ranges 9000-9299) until 1992, no longer used.",
+      "cca2": "ZA",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "South Georgia",
+    "nativeName": "South Georgia",
+    "cca2": "GS",
+    "cca3": "SGS",
+    "flag": "https://flagcdn.com/w320/gs.png",
+    "idd": {
+      "root": "+500",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "One code for all addresses.",
+      "cca2": "GS",
+      "format": "SIQQ 1ZZ",
+      "regex": "^[Ss][Ii][Qq]{2} 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "South Korea",
+    "nativeName": "대한민국",
+    "cca2": "KR",
+    "cca3": "KOR",
+    "flag": "https://flagcdn.com/w320/kr.png",
+    "idd": {
+      "root": "+82",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Previously NNN-NNN (1988~2015), NNN-NN (1970~1988). Now changed to 5 digits",
+      "cca2": "KR",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "South Sudan",
+    "nativeName": "South Sudan",
+    "cca2": "SS",
+    "cca3": "SSD",
+    "flag": "https://flagcdn.com/w320/ss.png",
+    "idd": {
+      "root": "+211",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Spain",
+    "nativeName": "España",
+    "cca2": "ES",
+    "cca3": "ESP",
+    "flag": "https://flagcdn.com/w320/es.png",
+    "idd": {
+      "root": "+34",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First two indicate the province, range 01-52",
+      "cca2": "ES",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Sri Lanka",
+    "nativeName": "śrī laṃkāva",
+    "cca2": "LK",
+    "cca3": "LKA",
+    "flag": "https://flagcdn.com/w320/lk.png",
+    "idd": {
+      "root": "+94",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Reference: http://mohanjith.net/ZIPLook/ Incorporates Colombo postal districts, e.g.: Colombo 1 is \"00100\". You can search for specific postal codes here.",
+      "cca2": "LK",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Sudan",
+    "nativeName": "السودان",
+    "cca2": "SD",
+    "cca3": "SDN",
+    "flag": "https://flagcdn.com/w320/sd.png",
+    "idd": {
+      "root": "+249",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "SD",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Suriname",
+    "nativeName": "Suriname",
+    "cca2": "SR",
+    "cca3": "SUR",
+    "flag": "https://flagcdn.com/w320/sr.png",
+    "idd": {
+      "root": "+597",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "nativeName": "Svalbard og Jan Mayen",
+    "cca2": "SJ",
+    "cca3": "SJM",
+    "flag": "https://flagcdn.com/w320/sj.png",
+    "idd": {
+      "root": "+4779",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Norway postal codes",
+      "cca2": "SJ",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Sweden",
+    "nativeName": "Sverige",
+    "cca2": "SE",
+    "cca3": "SWE",
+    "flag": "https://flagcdn.com/w320/se.png",
+    "idd": {
+      "root": "+46",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "SE",
+      "format": "NNN NN",
+      "regex": "^\\d{3} \\d{2}$"
+    }
+  },
+  {
+    "name": "Switzerland",
+    "nativeName": "Schweiz",
+    "cca2": "CH",
+    "cca3": "CHE",
+    "flag": "https://flagcdn.com/w320/ch.png",
+    "idd": {
+      "root": "+41",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "With Liechtenstein, ordered from west to east. In Geneva and other big cities, like Basel, Bern, Zurich, there may be one or two digits after the name of the city when the generic City code (1211) is used instead of the area-specific code (1201, 1202...), e.g.: 1211 Geneva 13. The digit identifies the post office. This addressing is generally used for P.O. box deliveries.",
+      "cca2": "CH",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Syria",
+    "nativeName": "سوريا",
+    "cca2": "SY",
+    "cca3": "SYR",
+    "flag": "https://flagcdn.com/w320/sy.png",
+    "idd": {
+      "root": "+963",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Taiwan",
+    "nativeName": "臺灣",
+    "cca2": "TW",
+    "cca3": "TWN",
+    "flag": "https://flagcdn.com/w320/tw.png",
+    "idd": {
+      "root": "+886",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first three digits of the postal code are required; the last two digits are optional. Codes are known as youdi quhao (郵遞區號), and are also assigned to Senkaku Islands (Diaoyutai), though Japanese-administered, the Pratas Islands and the Spratly Islands. See List of postal codes in Taiwan.",
+      "cca2": "TW",
+      "format": "NNN, NNN-NN or NNN-NNN",
+      "regex": "^\\d{3}(-\\d{2,3})?$"
+    }
+  },
+  {
+    "name": "Tajikistan",
+    "nativeName": "Тоҷикистон",
+    "cca2": "TJ",
+    "cca3": "TJK",
+    "flag": "https://flagcdn.com/w320/tj.png",
+    "idd": {
+      "root": "+992",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Retained system from former Soviet Union.",
+      "cca2": "TJ",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Tanzania",
+    "nativeName": "Tanzania",
+    "cca2": "TZ",
+    "cca3": "TZA",
+    "flag": "https://flagcdn.com/w320/tz.png",
+    "idd": {
+      "root": "+255",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "TZ",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Thailand",
+    "nativeName": "ประเทศไทย",
+    "cca2": "TH",
+    "cca3": "THA",
+    "flag": "https://flagcdn.com/w320/th.png",
+    "idd": {
+      "root": "+66",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The first two specify the province, numbers as in ISO 3166-2:TH, the third and fourth digits specify a district (amphoe)",
+      "cca2": "TH",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Timor-Leste",
+    "nativeName": "Timor-Leste",
+    "cca2": "TL",
+    "cca3": "TLS",
+    "flag": "https://flagcdn.com/w320/tl.png",
+    "idd": {
+      "root": "+670",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Togo",
+    "nativeName": "Togo",
+    "cca2": "TG",
+    "cca3": "TGO",
+    "flag": "https://flagcdn.com/w320/tg.png",
+    "idd": {
+      "root": "+228",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Tokelau",
+    "nativeName": "Tokelau",
+    "cca2": "TK",
+    "cca3": "TKL",
+    "flag": "https://flagcdn.com/w320/tk.png",
+    "idd": {
+      "root": "+690",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Tonga",
+    "nativeName": "Tonga",
+    "cca2": "TO",
+    "cca3": "TON",
+    "flag": "https://flagcdn.com/w320/to.png",
+    "idd": {
+      "root": "+676",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "nativeName": "Trinidad and Tobago",
+    "cca2": "TT",
+    "cca3": "TTO",
+    "flag": "https://flagcdn.com/w320/tt.png",
+    "idd": {
+      "root": "+1868",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First two digits specify a postal district (one of 72), next two digits a carrier route, last two digits a building or zone along that route",
+      "cca2": "TT",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Tunisia",
+    "nativeName": "تونس",
+    "cca2": "TN",
+    "cca3": "TUN",
+    "flag": "https://flagcdn.com/w320/tn.png",
+    "idd": {
+      "root": "+216",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "TN",
+      "format": "NNNN",
+      "regex": "^\\d{4}$"
+    }
+  },
+  {
+    "name": "Turkey",
+    "nativeName": "Türkiye",
+    "cca2": "TR",
+    "cca3": "TUR",
+    "flag": "https://flagcdn.com/w320/tr.png",
+    "idd": {
+      "root": "+90",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "First two digits are the city numbers.[8]",
+      "cca2": "TR",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Turkmenistan",
+    "nativeName": "Türkmenistan",
+    "cca2": "TM",
+    "cca3": "TKM",
+    "flag": "https://flagcdn.com/w320/tm.png",
+    "idd": {
+      "root": "+993",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Retained system from former Soviet Union.",
+      "cca2": "TM",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "nativeName": "Turks and Caicos Islands",
+    "cca2": "TC",
+    "cca3": "TCA",
+    "flag": "https://flagcdn.com/w320/tc.png",
+    "idd": {
+      "root": "+1649",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Single code used for all addresses.",
+      "cca2": "TC",
+      "format": "TKCA 1ZZ",
+      "regex": "^[Tt][Kk][Cc][Aa] 1[Zz]{2}$"
+    }
+  },
+  {
+    "name": "Tuvalu",
+    "nativeName": "Tuvalu",
+    "cca2": "TV",
+    "cca3": "TUV",
+    "flag": "https://flagcdn.com/w320/tv.png",
+    "idd": {
+      "root": "+688",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Uganda",
+    "nativeName": "Uganda",
+    "cca2": "UG",
+    "cca3": "UGA",
+    "flag": "https://flagcdn.com/w320/ug.png",
+    "idd": {
+      "root": "+256",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Ukraine",
+    "nativeName": "Україна",
+    "cca2": "UA",
+    "cca3": "UKR",
+    "flag": "https://flagcdn.com/w320/ua.png",
+    "idd": {
+      "root": "+380",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "UA",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "United Arab Emirates",
+    "nativeName": "دولة الإمارات العربية المتحدة",
+    "cca2": "AE",
+    "cca3": "ARE",
+    "flag": "https://flagcdn.com/w320/ae.png",
+    "idd": {
+      "root": "+971",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "United Kingdom",
+    "nativeName": "United Kingdom",
+    "cca2": "GB",
+    "cca3": "GBR",
+    "flag": "https://flagcdn.com/w320/gb.png",
+    "idd": {
+      "root": "+44",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Known as the postcode. The first letter(s) indicate the postal area, such as the town or part of London. Placed on a separate line below the city (or county, if used). The UK postcode is made up of two parts separated by a space. These are known as the outward postcode and the inward postcode. The outward postcode is always one of the following formats: AN, ANN, AAN, AANN, ANA, AANA, AAA. The inward postcode is always formatted as NAA. A valid inward postcode never contains the letters: C, I, K, M, O or V. The British Forces Post Office has a different system, but as of 2012 has also adopted UK-style postcodes that begin with 'BF1' for electronic compatibility.",
+      "cca2": "GB",
+      "format": "A[A]N[?] or A[A]N[?] NAA",
+      "regex": "^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) [0-9][A-Za-z]{2})$"
+    }
+  },
+  {
+    "name": "United States",
+    "nativeName": "United States",
+    "cca2": "US",
+    "cca3": "USA",
+    "flag": "https://flagcdn.com/w320/us.png",
+    "idd": {
+      "root": "+1",
+      "suffixes": [
+        "201",
+        "202",
+        "203",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "224",
+        "225",
+        "227",
+        "228",
+        "229",
+        "231",
+        "234",
+        "239",
+        "240",
+        "248",
+        "251",
+        "252",
+        "253",
+        "254",
+        "256",
+        "260",
+        "262",
+        "267",
+        "269",
+        "270",
+        "272",
+        "274",
+        "276",
+        "281",
+        "283",
+        "301",
+        "302",
+        "303",
+        "304",
+        "305",
+        "307",
+        "308",
+        "309",
+        "310",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "323",
+        "325",
+        "327",
+        "330",
+        "331",
+        "334",
+        "336",
+        "337",
+        "339",
+        "346",
+        "347",
+        "351",
+        "352",
+        "360",
+        "361",
+        "364",
+        "380",
+        "385",
+        "386",
+        "401",
+        "402",
+        "404",
+        "405",
+        "406",
+        "407",
+        "408",
+        "409",
+        "410",
+        "412",
+        "413",
+        "414",
+        "415",
+        "417",
+        "419",
+        "423",
+        "424",
+        "425",
+        "430",
+        "432",
+        "434",
+        "435",
+        "440",
+        "442",
+        "443",
+        "447",
+        "458",
+        "463",
+        "464",
+        "469",
+        "470",
+        "475",
+        "478",
+        "479",
+        "480",
+        "484",
+        "501",
+        "502",
+        "503",
+        "504",
+        "505",
+        "507",
+        "508",
+        "509",
+        "510",
+        "512",
+        "513",
+        "515",
+        "516",
+        "517",
+        "518",
+        "520",
+        "530",
+        "531",
+        "534",
+        "539",
+        "540",
+        "541",
+        "551",
+        "559",
+        "561",
+        "562",
+        "563",
+        "564",
+        "567",
+        "570",
+        "571",
+        "573",
+        "574",
+        "575",
+        "580",
+        "585",
+        "586",
+        "601",
+        "602",
+        "603",
+        "605",
+        "606",
+        "607",
+        "608",
+        "609",
+        "610",
+        "612",
+        "614",
+        "615",
+        "616",
+        "617",
+        "618",
+        "619",
+        "620",
+        "623",
+        "626",
+        "628",
+        "629",
+        "630",
+        "631",
+        "636",
+        "641",
+        "646",
+        "650",
+        "651",
+        "657",
+        "660",
+        "661",
+        "662",
+        "667",
+        "669",
+        "678",
+        "681",
+        "682",
+        "701",
+        "702",
+        "703",
+        "704",
+        "706",
+        "707",
+        "708",
+        "712",
+        "713",
+        "714",
+        "715",
+        "716",
+        "717",
+        "718",
+        "719",
+        "720",
+        "724",
+        "725",
+        "727",
+        "730",
+        "731",
+        "732",
+        "734",
+        "737",
+        "740",
+        "743",
+        "747",
+        "754",
+        "757",
+        "760",
+        "762",
+        "763",
+        "765",
+        "769",
+        "770",
+        "772",
+        "773",
+        "774",
+        "775",
+        "779",
+        "781",
+        "785",
+        "786",
+        "801",
+        "802",
+        "803",
+        "804",
+        "805",
+        "806",
+        "808",
+        "810",
+        "812",
+        "813",
+        "814",
+        "815",
+        "816",
+        "817",
+        "818",
+        "828",
+        "830",
+        "831",
+        "832",
+        "843",
+        "845",
+        "847",
+        "848",
+        "850",
+        "854",
+        "856",
+        "857",
+        "858",
+        "859",
+        "860",
+        "862",
+        "863",
+        "864",
+        "865",
+        "870",
+        "872",
+        "878",
+        "901",
+        "903",
+        "904",
+        "906",
+        "907",
+        "908",
+        "909",
+        "910",
+        "912",
+        "913",
+        "914",
+        "915",
+        "916",
+        "917",
+        "918",
+        "919",
+        "920",
+        "925",
+        "928",
+        "929",
+        "930",
+        "931",
+        "934",
+        "936",
+        "937",
+        "938",
+        "940",
+        "941",
+        "947",
+        "949",
+        "951",
+        "952",
+        "954",
+        "956",
+        "959",
+        "970",
+        "971",
+        "972",
+        "973",
+        "975",
+        "978",
+        "979",
+        "980",
+        "984",
+        "985",
+        "989"
+      ]
+    },
+    "zip": {
+      "note": "Known as the ZIP Code with five digits 99999* or the ZIP+4 Code with nine digits 99999-9999* (while the minimum requirement is the first five digits, the U.S. Postal Service encourages everyone to use all nine). Also used by the former US Pacific Territories: Federated States of Micronesia; Palau; and the Marshall Islands, as well as in current US territories American Samoa, Guam, Northern Mariana Islands, Puerto Rico, and the United States Virgin Islands. An individual delivery point may be represented as an 11-digit number, but these are usually represented by Intelligent Mail barcode or formerly POSTNET bar code.",
+      "cca2": "US",
+      "format": "NNNNN[-NNNN]",
+      "regex": "^\\d{5}(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "nativeName": "United States Minor Outlying Islands",
+    "cca2": "UM",
+    "cca3": "UMI",
+    "flag": "https://flagcdn.com/w320/um.png",
+    "idd": {
+      "root": "+268",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Mostly uninhabited. There is only one postal code in use, 96898 Wake Island.",
+      "cca2": "UM",
+      "format": "96898",
+      "regex": "^96898$"
+    }
+  },
+  {
+    "name": "United States Virgin Islands",
+    "nativeName": "Virgin Islands of the United States",
+    "cca2": "VI",
+    "cca3": "VIR",
+    "flag": "https://flagcdn.com/w320/vi.png",
+    "idd": {
+      "root": "+1340",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "U.S. ZIP codes. Range 00801 - 00851.",
+      "cca2": "US",
+      "format": "008NN[-NNNN]",
+      "regex": "^008[0-5]\\d(-\\d{4})?$"
+    }
+  },
+  {
+    "name": "Uruguay",
+    "nativeName": "Uruguay",
+    "cca2": "UY",
+    "cca3": "URY",
+    "flag": "https://flagcdn.com/w320/uy.png",
+    "idd": {
+      "root": "+598",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "UY",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Uzbekistan",
+    "nativeName": "O‘zbekiston",
+    "cca2": "UZ",
+    "cca3": "UZB",
+    "flag": "https://flagcdn.com/w320/uz.png",
+    "idd": {
+      "root": "+998",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Почтовые индексы",
+      "cca2": "UZ",
+      "format": "NNNNNN",
+      "regex": "^\\d{6}$"
+    }
+  },
+  {
+    "name": "Vanuatu",
+    "nativeName": "Vanuatu",
+    "cca2": "VU",
+    "cca3": "VUT",
+    "flag": "https://flagcdn.com/w320/vu.png",
+    "idd": {
+      "root": "+678",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Vatican City",
+    "nativeName": "Sancta Sedes",
+    "cca2": "VA",
+    "cca3": "VAT",
+    "flag": "https://flagcdn.com/w320/va.png",
+    "idd": {
+      "root": "+3",
+      "suffixes": [
+        "906698",
+        "79"
+      ]
+    },
+    "zip": {
+      "note": "Single code used for all addresses. Part of the Italian postal code system.",
+      "cca2": "VA",
+      "format": "120",
+      "regex": "^120$"
+    }
+  },
+  {
+    "name": "Venezuela",
+    "nativeName": "Venezuela",
+    "cca2": "VE",
+    "cca3": "VEN",
+    "flag": "https://flagcdn.com/w320/ve.png",
+    "idd": {
+      "root": "+58",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "VE",
+      "format": "NNNN[-A]",
+      "regex": "^\\d{4}(-[a-zA-Z])?$"
+    }
+  },
+  {
+    "name": "Vietnam",
+    "nativeName": "Việt Nam",
+    "cca2": "VN",
+    "cca3": "VNM",
+    "flag": "https://flagcdn.com/w320/vn.png",
+    "idd": {
+      "root": "+84",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "The postal code system of Vietnam has officially been changed from 6 digits to 5 digits. Each country has its own separate postal code or zip code system. The postal code of Vietnam is composed of 5 digits, with the following meanings: 1. The first digit determines the area code; 2. The first two characters identify the centrally-governed province or city; 3. The first four characters identify the district or corresponding administrative unit.",
+      "cca2": "VN",
+      "format": "NNNNN[-NNNNN]",
+      "regex": "^\\d{5}(-\\d{5})?$"
+    }
+  },
+  {
+    "name": "Wallis and Futuna",
+    "nativeName": "Wallis et Futuna",
+    "cca2": "WF",
+    "cca3": "WLF",
+    "flag": "https://flagcdn.com/w320/wf.png",
+    "idd": {
+      "root": "+681",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "Overseas Department of France. French codes used. Range 98600 - 98690.",
+      "cca2": "WF",
+      "format": "986NN",
+      "regex": "^986\\d{2}$"
+    }
+  },
+  {
+    "name": "Western Sahara",
+    "nativeName": "الصحراء الغربية",
+    "cca2": "EH",
+    "cca3": "ESH",
+    "flag": "https://flagcdn.com/w320/eh.png",
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "125288",
+        "125289"
+      ]
+    },
+    "zip": {
+      "note": "Postal Codes in Western Sahara reference to Morocco.",
+      "cca2": "EH",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Yemen",
+    "nativeName": "اليَمَن",
+    "cca2": "YE",
+    "cca3": "YEM",
+    "flag": "https://flagcdn.com/w320/ye.png",
+    "idd": {
+      "root": "+967",
+      "suffixes": []
+    },
+    "zip": null
+  },
+  {
+    "name": "Zambia",
+    "nativeName": "Zambia",
+    "cca2": "ZM",
+    "cca3": "ZMB",
+    "flag": "https://flagcdn.com/w320/zm.png",
+    "idd": {
+      "root": "+260",
+      "suffixes": []
+    },
+    "zip": {
+      "note": "",
+      "cca2": "ZM",
+      "format": "NNNNN",
+      "regex": "^\\d{5}$"
+    }
+  },
+  {
+    "name": "Zimbabwe",
+    "nativeName": "Zimbabwe",
+    "cca2": "ZW",
+    "cca3": "ZWE",
+    "flag": "https://flagcdn.com/w320/zw.png",
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "63"
+      ]
+    },
+    "zip": null
+  }
+]
